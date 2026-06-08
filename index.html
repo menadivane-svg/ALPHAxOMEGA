@@ -1,6 +1,6 @@
 ALPHA X OMEGA 
   EST 1946
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
     <meta charset="UTF-8">
@@ -19,9 +19,10 @@ ALPHA X OMEGA
 
         /* Hero */
         .hero { padding: 80px 5%; text-align: center; background: radial-gradient(circle, #174b2f22, #050505); }
-        .hero h1 { font-size: 3.5rem; color: var(--gold-accent); }
+        .hero h1 { font-size: 3.5rem; color: var(--gold-accent); margin: 0; }
+        .est-text { font-size: 1.5rem; color: #ccc; margin-bottom: 20px; }
         .price { font-size: 2rem; color: var(--gold-accent); margin: 20px 0; }
-        .btn { padding: 15px 40px; background: var(--gold-accent); color: #000; font-weight: 900; text-decoration: none; border-radius: 30px; }
+        .btn { padding: 15px 40px; background: var(--gold-accent); color: #000; font-weight: 900; text-decoration: none; border-radius: 30px; display: inline-block; }
 
         /* Galerie */
         .gallery-section { padding: 80px 5%; }
@@ -42,13 +43,14 @@ ALPHA X OMEGA
     </header>
 
     <section class="hero">
-        <h1>ALPHA X OMEGA Collection</h1>
+        <h1>ALPHA X OMEGA</h1>
+        <p class="est-text">EST 1946</p>
         <p>Qualité supérieure et design exclusif.</p>
         <div class="price">3500 DA</div>
         <a href="#contact" class="btn">COMMANDER</a>
     </section>
 
-    <!-- معرض الصور -->
+    <!-- Galerie -->
     <section class="gallery-section" id="galerie">
         <h2 style="text-align:center; color: var(--gold-accent); margin-bottom: 40px;">Notre Galerie</h2>
         <div class="gallery-grid">
@@ -69,3 +71,4 @@ ALPHA X OMEGA
 
 </body>
 </html>
+
