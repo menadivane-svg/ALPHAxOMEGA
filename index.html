@@ -1,36 +1,99 @@
 index.html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>ALPHA x OMEGA</title>
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    background:#111;
+    color:white;
+    font-family:Arial,sans-serif;
+    text-align:center;
+}
+
+.hero{
+    padding:60px 20px;
+}
+
+h1{
+    font-size:3rem;
+    color:#d4af37;
+    margin-bottom:10px;
+}
+
+h2{
+    color:#2ecc71;
+    font-weight:normal;
+}
+
+.product{
+    max-width:500px;
+    margin:auto;
+    padding:20px;
+}
+
+.product img{
+    width:100%;
+    border-radius:15px;
+}
+
+.price{
+    font-size:2rem;
+    color:#d4af37;
+    font-weight:bold;
+}
+
+.btn{
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:10px;
+    font-size:18px;
+    margin-top:15px;
+}
+
+footer{
+    margin-top:40px;
+    padding:20px;
+    background:#000;
+}
+</style>
+
 </head>
 <body>
 
-<h1>ALPHA x OMEGA</h1>
+<div class="hero">
+    <h1>ALPHA x OMEGA</h1>
+    <h2>The Casual T-Shirt for Refined Minds</h2>
+</div>
 
-<h2>The Casual T-Shirt for Refined Minds</h2>
+<div class="product">
 
-<p>Vintage Masterpiece for Refined Minds</p>
+    <!-- Remplace tshirt.jpg par ta photo -->
+    <img src="tshirt.jpg" alt="ALPHA x OMEGA">
 
-<p>Price: 3500 DZD</p>
+    <p>Vintage Masterpiece for Refined Minds</p>
 
-<p>Phone: 0666-900-4060</p>
+    <p class="price">3500 DZD</p>
 
-<button>Order Now</button>
+    <a class="btn"
+       href="https://wa.me/213666900406">
+       Order on WhatsApp
+    </a>
 
-<hr>
+</div>
 
-<h2>T-shirt Décontracté pour les Esprits Raffinés</h2>
-
-<p>Chef-d'œuvre Vintage pour les Esprits Raffinés</p>
-
-<p>Prix : 3500 DZD</p>
-
-<p>Téléphone : 0666-900-4060</p>
-
-<button>Commander Maintenant</button>
+<footer>
+    📞 0666 900 4060
+</footer>
 
 </body>
 </html>
